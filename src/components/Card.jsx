@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Card({ dataApi }) {
-    console.log(dataApi);
+    //console.log(dataApi);
 
 	return (
 		<div className="card m-3" style={{ width: '18rem' }}>

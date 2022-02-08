@@ -10,7 +10,7 @@ function ApiAxios() {
 		axios.get('https://rickandmortyapi.com/api/character')
         .then((res) => setData(res.data.results));
 	}, []);
-	console.log(data);
+	//console.log(data);
 	const chargement = () => {
 		if (data.length === undefined || data.length === 0) {
 			return (
